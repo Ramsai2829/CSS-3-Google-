@@ -1,0 +1,58 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #fff;
+    width: 400px;
+    border-radius: 12px;
+    border: 1px solid #e0e0e0;
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+.card h2 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: #202124;
+}
+
+.card p {
+    font-size: 14px;
+    color: #5f6368;
+    margin-bottom: 24px;
+    line-height: 1.5;
+}
+
+.profiles {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.profiles img {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid #e0e0e0;
+}
+
+.card a {
+    font-size: 14px;
+    color: #1a73e8;
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
